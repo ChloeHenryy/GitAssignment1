@@ -11,7 +11,7 @@ public class SelectionSort {
                 }
             }
 
-            if (minElementIndex != i) {
+            if (minElementIndex != i) { /* This code is correct */
                 int temp = arr[i];
                 arr[i] = arr[minElementIndex];
                 arr[minElementIndex] = temp;
